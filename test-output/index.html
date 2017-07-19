@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-suite1">
+              <span class="suite-name border-skipped">suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-suite1">
+                    <span>suite1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,  12 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-suite1" class="hide-methods skipped suite-suite1"> (hide)</a> <!-- hide-methods skipped suite-suite1 -->
+                      <a href="#" panel-name="suite-suite1" class="show-methods skipped suite-suite1"> (show)</a> <!-- show-methods skipped suite-suite1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-suite1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.BoardTest" hash-for-method="alreadydeletedboard_deletetest">alreadydeletedboard_deletetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.PlayerTest" hash-for-method="alreadydeletedplayer_deletetest">alreadydeletedplayer_deletetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.BoardTest" hash-for-method="createboardtest">createboardtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.BoardTest" hash-for-method="deleteboardtest">deleteboardtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.PlayerTest" hash-for-method="deleteplayertest">deleteplayertest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.BoardTest" hash-for-method="getddetailofboard">getddetailofboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.BoardTest" hash-for-method="getlistofboardtest">getlistofboardtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.PlayerTest" hash-for-method="getplayerdetails">getplayerdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.PlayerTest" hash-for-method="moveplayertest">moveplayertest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.PlayerTest" hash-for-method="registerplayer">registerplayer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.BoardTest" hash-for-method="resetboardtest">resetboardtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-suite1" title="TestProject.snlService_passArguments.PlayerTest" hash-for-method="updateplayerdetailtest">updateplayerdetailtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-suite1" class="panel suite1">
+          <div class="suite-suite1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestProject.snlService_passArguments.PlayerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alreadydeletedplayer_deletetest">
+                  </a> <!-- alreadydeletedplayer_deletetest -->
+                  <span class="method-name">alreadydeletedplayer_deletetest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteplayertest">
+                  </a> <!-- deleteplayertest -->
+                  <span class="method-name">deleteplayertest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getplayerdetails">
+                  </a> <!-- getplayerdetails -->
+                  <span class="method-name">getplayerdetails</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveplayertest">
+                  </a> <!-- moveplayertest -->
+                  <span class="method-name">moveplayertest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerplayer">
+                  </a> <!-- registerplayer -->
+                  <span class="method-name">registerplayer</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateplayerdetailtest">
+                  </a> <!-- updateplayerdetailtest -->
+                  <span class="method-name">updateplayerdetailtest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite1-class-skipped -->
+          <div class="suite-suite1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestProject.snlService_passArguments.BoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alreadydeletedboard_deletetest">
+                  </a> <!-- alreadydeletedboard_deletetest -->
+                  <span class="method-name">alreadydeletedboard_deletetest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createboardtest">
+                  </a> <!-- createboardtest -->
+                  <span class="method-name">createboardtest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteboardtest">
+                  </a> <!-- deleteboardtest -->
+                  <span class="method-name">deleteboardtest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getddetailofboard">
+                  </a> <!-- getddetailofboard -->
+                  <span class="method-name">getddetailofboard</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getlistofboardtest">
+                  </a> <!-- getlistofboardtest -->
+                  <span class="method-name">getlistofboardtest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resetboardtest">
+                  </a> <!-- resetboardtest -->
+                  <span class="method-name">resetboardtest</span>
+                  <div class="stack-trace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-suite1-class-skipped -->
+        </div> <!-- panel suite1 -->
+        <div panel-name="test-xml-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/qainfotech/workspace/snlService_passArguments/src/test/java/TestProject/snlService_passArguments/suite1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;suite1&quot;&gt;
+  &lt;test name=&quot;test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestProject.snlService_passArguments.BoardTest&quot;/&gt;
+      &lt;class name=&quot;TestProject.snlService_passArguments.PlayerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+&lt;/suite&gt; &lt;!-- suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_suite1');
+function tableData_suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getlistofboardtest')
+data.setCell(0, 2, 'TestProject.snlService_passArguments.BoardTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deleteplayertest')
+data.setCell(1, 2, 'TestProject.snlService_passArguments.PlayerTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'alreadydeletedboard_deletetest')
+data.setCell(2, 2, 'TestProject.snlService_passArguments.BoardTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getplayerdetails')
+data.setCell(3, 2, 'TestProject.snlService_passArguments.PlayerTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'alreadydeletedplayer_deletetest')
+data.setCell(4, 2, 'TestProject.snlService_passArguments.PlayerTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registerplayer')
+data.setCell(5, 2, 'TestProject.snlService_passArguments.PlayerTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createboardtest')
+data.setCell(6, 2, 'TestProject.snlService_passArguments.BoardTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getddetailofboard')
+data.setCell(7, 2, 'TestProject.snlService_passArguments.BoardTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'moveplayertest')
+data.setCell(8, 2, 'TestProject.snlService_passArguments.PlayerTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'resetboardtest')
+data.setCell(9, 2, 'TestProject.snlService_passArguments.BoardTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'updateplayerdetailtest')
+data.setCell(10, 2, 'TestProject.snlService_passArguments.PlayerTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'deleteboardtest')
+data.setCell(11, 2, 'TestProject.snlService_passArguments.BoardTest')
+data.setCell(11, 3, 0);
+window.suiteTableData['suite1']= { tableData: data, tableDiv: 'times-div-suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-suite1">
+              </div> <!-- times-div-suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestProject.snlService_passArguments.BoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">findVersion</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestProject.snlService_passArguments.PlayerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createboard</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- configuration-test before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

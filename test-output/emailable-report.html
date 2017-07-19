@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">suite1</th></tr><tr><td><a href="#t0">test</a></td><td class="num">0</td><td class="num attn">12</td><td class="num">0</td><td class="num">232</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">TestProject.snlService_passArguments.BoardTest</td><td><a href="#m0">createboard</a></td><td rowspan="1">1500469771468</td><td rowspan="1">162</td></tr><tr><th colspan="4">test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">TestProject.snlService_passArguments.BoardTest</td><td><a href="#m1">alreadydeletedboard_deletetest</a></td><td rowspan="1">1500469771680</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">createboardtest</a></td><td rowspan="1">1500469771651</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">deleteboardtest</a></td><td rowspan="1">1500469771673</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">getddetailofboard</a></td><td rowspan="1">1500469771667</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">getlistofboardtest</a></td><td rowspan="1">1500469771662</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">resetboardtest</a></td><td rowspan="1">1500469771670</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="6">TestProject.snlService_passArguments.PlayerTest</td><td><a href="#m7">alreadydeletedplayer_deletetest</a></td><td rowspan="1">1500469771681</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m8">deleteplayertest</a></td><td rowspan="1">1500469771675</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m9">getplayerdetails</a></td><td rowspan="1">1500469771665</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m10">moveplayertest</a></td><td rowspan="1">1500469771672</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m11">registerplayer</a></td><td rowspan="1">1500469771655</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m12">updateplayerdetailtest</a></td><td rowspan="1">1500469771669</td><td rowspan="1">0</td></tr></tbody></table><h2>test</h2><h3 id="m0">TestProject.snlService_passArguments.BoardTest#createboard</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">TestProject.snlService_passArguments.BoardTest#alreadydeletedboard_deletetest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">TestProject.snlService_passArguments.BoardTest#createboardtest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">TestProject.snlService_passArguments.BoardTest#deleteboardtest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">TestProject.snlService_passArguments.BoardTest#getddetailofboard</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">TestProject.snlService_passArguments.BoardTest#getlistofboardtest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">TestProject.snlService_passArguments.BoardTest#resetboardtest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">TestProject.snlService_passArguments.PlayerTest#alreadydeletedplayer_deletetest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">TestProject.snlService_passArguments.PlayerTest#deleteplayertest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">TestProject.snlService_passArguments.PlayerTest#getplayerdetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">TestProject.snlService_passArguments.PlayerTest#moveplayertest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">TestProject.snlService_passArguments.PlayerTest#registerplayer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">TestProject.snlService_passArguments.PlayerTest#updateplayerdetailtest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:108)
+	at TestProject.snlService_passArguments.PlayerTest.createboard(PlayerTest.java:47)
+Caused by: java.io.IOException: Server returned HTTP response code: 401 for URL: http://10.0.1.86/snl/rest/v3/board/new.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at TestProject.snlService_passArguments.requests.sendGet(requests.java:102)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

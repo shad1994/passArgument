@@ -1,0 +1,17 @@
+{
+   "noAuth":{
+      "version":"v1"
+   },
+   "basicAuth":{
+      "version":"v2",
+      "username":"su",
+      "password":"root_pass"
+   },
+   "oAuth2":{
+      "version":"v3",
+      "client_id":"cd614b5147720ebf4d51ce8487701a6ff21a711be7d7935ebbf914c6a115d70c",
+      "client_secret":"2dbdf2319387b50f9c31cf10f196aeb52c45e393454f5baba6b9c7ac30b4f471",
+      "authurl":"http://10.0.1.86/snl/oauth/authorize",
+      "tokenurl":"http://10.0.1.86/snl/oauth/token"
+   }
+}

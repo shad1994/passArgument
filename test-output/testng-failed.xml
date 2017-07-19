@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite1]">
+  <test name="test(failed)">
+    <classes>
+      <class name="TestProject.snlService_passArguments.PlayerTest">
+        <methods>
+          <include name="moveplayertest"/>
+          <include name="alreadydeletedplayer_deletetest"/>
+          <include name="createboard"/>
+          <include name="getplayerdetails"/>
+          <include name="updateplayerdetailtest"/>
+          <include name="deleteplayertest"/>
+          <include name="registerplayer"/>
+        </methods>
+      </class> <!-- TestProject.snlService_passArguments.PlayerTest -->
+      <class name="TestProject.snlService_passArguments.BoardTest">
+        <methods>
+          <include name="createboardtest"/>
+          <include name="getlistofboardtest"/>
+          <include name="resetboardtest"/>
+          <include name="getddetailofboard"/>
+          <include name="deleteboardtest"/>
+          <include name="alreadydeletedboard_deletetest"/>
+          <include name="findVersion"/>
+        </methods>
+      </class> <!-- TestProject.snlService_passArguments.BoardTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [suite1] -->
